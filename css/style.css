@@ -21,11 +21,15 @@ body {
 }
 .phone-option{
     border: 2px solid orangered;
+    font-weight: bold;
+    cursor: pointer;
     margin: 5px;
     padding: 5px;
 }
 .email-option{
     border: 2px solid orangered;
+    font-weight: bold;
+    cursor: pointer;
     margin: 5px;
     padding: 5px;
 }
