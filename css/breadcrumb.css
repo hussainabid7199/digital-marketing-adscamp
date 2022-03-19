@@ -1,0 +1,42 @@
+
+        .card{
+            width: 80%;
+        }
+
+        .heading{
+            margin-top: 50px;
+            padding: 10px 0px 0px 6.5rem;
+            height: 150px;
+            width: 100%;
+            background-color:  rgba(255, 255, 255, 0.72);
+        }
+
+        .sub-head{
+            margin: 10px 0px 5px 0px;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .discription-detail{
+            margin-top: 30px;
+        }
+
+        .price-1{
+            float: left;
+            text-align: center;
+            width: 35%;
+        }
+
+        .details-1{
+            text-align: left;
+            width: 65%;
+            margin-top: 20px;
+
+        }
+
+
+
+        

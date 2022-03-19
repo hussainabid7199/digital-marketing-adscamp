@@ -1,0 +1,163 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.price-img img{
+  width: 100%;
+  height: 500px;
+  margin-top:70px;
+}
+.price{
+  margin-bottom: 180px;
+}
+.plan{
+  margin-top: -420px;
+  
+  text-align: center;
+  color: #ffffff;
+}
+.plan h1{
+  /* margin-top: -430px; */
+  
+  /* margin:20px; */
+ 
+  font-size: 80px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.span{
+  margin:20px;
+  font-size: 20px;
+  
+}
+.plan-quote{
+  margin: 30px;
+  font-size: 20px;
+}
+
+/* price and paln  */
+
+.plan-flexibality{
+  text-align: center;
+}
+.plan-flexibality h3{
+  color: orangered;
+
+}
+.plan-flexibality h1{
+  
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+.plan-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.plan-more-box{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+ 
+}
+.more-info{
+
+  /* border: 1px solid  rgb(227, 232, 253); */
+  width: 24%;
+  margin: 20px;
+  padding: 10px;
+}
+.more-info p{
+
+font-size: 15px;
+font-weight: bold;
+margin: 30px;
+}
+.plan-box-info{
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+  border: 1px solid  rgb(245, 192, 176);
+  box-shadow: 4px 4px 4px 3px rgba(245, 192, 176, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 24%;
+  margin: 20px;
+  padding: 10px;
+  height: 800px;
+}
+.plan-box-info:hover{
+    transform: scale(1.02);
+
+}
+.plan-box-info p{
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+.plan-box-info h1{
+  font-size: 46px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bolder;
+}
+.plan-box-info span{
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+.planbtn{
+  border: 1px solid  rgb(227, 232, 253);
+  background-color: rgb(227, 232, 253);
+  align-items: center;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  /* margin-left: 85px; */
+  color: rgb(255, 60, 0);
+  font-weight: bold;
+}
+.planbtn:hover{
+  border: 1px solid  rgb(255, 60, 0);
+  color: #ffffff;
+    background-color: rgb(255, 60, 0);
+
+}
+.plan-offer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plan-offer span{
+  margin-bottom: 20px;
+   padding: 20px;
+    font-size: 20px;
+     color: rgb(102, 109, 119);
+      background-color: rgb(227, 236, 250);
+      width: 106%;
+}
+.plan-hr{
+  background-color: orangered;
+  width: 80%;
+  text-align: center;
+  height: 1px;
+  margin-left: 40px;
+}
+
+/* end of price and  plan  */
+
+
+
