@@ -16,6 +16,7 @@
 .row{
 margin-top: 30px;
 }
+
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
@@ -72,4 +73,20 @@ margin-top: 30px;
     text-decoration: none;
     transition: background 0.5s;
 }
+
+
+.plan-flexibality-contact{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  .plan-flexibality-contact h3{
+    color: orangered;
+  
+  }
+  .plan-flexibality-contact h1{
+    
+    font-size: 50px;
+    font-weight: bolder;
+  }
 /* -----------------------------------end of contact------------------------- */
