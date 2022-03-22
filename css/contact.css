@@ -21,6 +21,11 @@ margin-top: 30px;
     flex-basis: 48%;
     margin-bottom: 30px;
 }
+@media(max-width:780px){
+    .contact-col{
+        flex-basis: 100%;
+    }
+}
 .contact-col div{
     display: flex;
     align-items: center;

@@ -63,6 +63,11 @@
   justify-content: center;
   
 }
+@media (max-width:780px){
+  .plan-box{
+    flex-direction: column;
+  }
+}
 .plan-more-box{
   display: flex;
   align-items: center;
@@ -95,6 +100,12 @@ margin: 30px;
   margin: 20px;
   padding: 10px;
   height: 800px;
+}
+@media(max-width:780px){
+  .plan-box-info{
+    width: 80%;
+    height: fit-content !important;
+  }
 }
 .plan-box-info:hover{
     transform: scale(1.02);
