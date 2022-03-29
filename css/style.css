@@ -987,7 +987,7 @@ h1 {
     height: 580px;
 }
 
-@media(min-width:200px) and (max-width:780px) {
+@media(max-width:780px) {
     .container_port {
         display: flex;
         justify-content: center;
@@ -995,7 +995,7 @@ h1 {
         flex-wrap: wrap;
         width: 90%;
         margin-top: 2%;
-        margin-left: 20px;
+        /* margin-left: 20px; */
         height: 20%;
     }
 }
@@ -1005,61 +1005,41 @@ h1 {
 
 .item_p {
     background-color: rgb(255, 255, 255);
-    height: 200px;
-    width: 240px;
+    height: 350px;
+    width: 30%;
     /* border: 1px solid rgb(0, 0, 0, 0.5); */
     /* border-radius: 5px; */
-    border: 1px solid  rgb(245, 192, 176);
-    box-shadow: 4px 4px 4px 3px rgba(245, 192, 176, 0.2);
-    border-radius: 5px;
+    /* border: 1px solid  rgb(245, 192, 176); */
+    /* box-shadow: 4px 4px 4px 3px rgba(245, 192, 176, 0.2); */
+    /* border-radius: 5px; */
     cursor: pointer;
-    margin: 1%;
+    margin: 0%;
 }
 .item_p:hover{
     transform: scale(1.02);
 }
 
-@media(min-width:476px) and (max-width:850px) {
+@media(max-width:780px) {
     .item_p {
         background-color: rgb(255, 255, 255);
-        width: 130px;
-        height: 125px;
+        width: 50%;
+        height: 350px;
     }
     .container_port {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        width: 87%;
+        width: 98%;
         margin-top: 2%;
-        margin-left: 6%;
+        margin-left: 0% !important;
         height: 20%;
     }
-}
-
-@media(min-width:347px) and (max-width:476px) {
-    .item_p {
-        background-color: rgb(255, 255, 255);
-        width: 150px;
-        height: 125px;
+    .item_p img{
+        width: 100%;
     }
 }
 
-@media(min-width:300px) and (max-width:346px) {
-    .item_p {
-        background-color: rgb(255, 255, 255);
-        width: 130px;
-        height: 125px;
-    }
-}
-
-@media(min-width:200px) and (max-width:300px) {
-    .item_p {
-        background-color: rgb(255, 255, 255);
-        width: 95px;
-        height: 100px;
-    }
-}
 
 @media(min-width:1023px) and (max-width:1024px) {
     #portfolio {
