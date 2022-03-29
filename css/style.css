@@ -17,11 +17,25 @@ body {
   background-color: #e7f4fa;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-option ul{
+    margin-right: 2%;
+}
+.contact-option ul li{
+    padding-left: 3px;
 }
 
+.con-top{
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+
 .phone-option{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     font-weight: bold;
     cursor: pointer;
     margin: 5px;
@@ -29,7 +43,7 @@ body {
 }
 
 .email-option{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     font-weight: bold;
     cursor: pointer;
     margin: 5px;
@@ -44,6 +58,21 @@ body {
     color: #043091;
 }
 @media(max-width:780px){
+    .contact-option{
+        width: 100%;
+    }
+    .contact-option ul{
+        display: block;
+        visibility: collapse;
+        padding: 0px;
+        margin: 0px;
+        height: 0px;
+        width: 0px;
+    }
+    .con-top{
+        display: flex;
+        width: 100%;
+    }
     .phone-option{
         display: block;
         visibility: collapse;
@@ -59,6 +88,8 @@ body {
         margin: 1px;
         padding: 1px;
         width: 100%;
+        flex-direction: row;
+        float: inline-start;
     }
 } 
 
@@ -305,11 +336,11 @@ h1 {
 
 
 .task {
-    width: 50%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     overflow: hidden;
     margin-left: 70px;
 }
@@ -495,7 +526,12 @@ h1 {
 }
 @media (max-width:780px){
     .about-img{
-        width: 100%;
+        display: block;
+        visibility: collapse;
+        width: 0px;
+        height: 0px;
+        margin: 2rem;
+        padding: 0px;
     }
 }
 
@@ -802,7 +838,7 @@ h1 {
 .fa-facebook,
 .fa-google,
 .fa-linkedin,
-.fa-twitter {
+.fa-instagram {
     background: #102d6b;
     color: white;
 }
