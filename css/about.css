@@ -43,6 +43,7 @@
 }
 .about-p{
     color: black;
+    margin-bottom: 0px !important;
 }
 .btn{
     display: inline-block;

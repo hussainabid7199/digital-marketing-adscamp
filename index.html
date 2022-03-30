@@ -1213,11 +1213,6 @@
 
     <!-- team section end  -->
 
-
-
-
-
-
     <!-- newsLetter -->
 
     <section id="newsLetter">
@@ -1227,7 +1222,7 @@
             <p class="text-news">Don’t forget to receive the best upcoming partnership offers. Subscribe now and become one of our prime members. For only the prime members will be able to access our best and smart upcoming partnership offers.</p>
             <div class="newsLetterbutton">
                 <input type="email" class="newsLetterinput" id="exampleInputEmail1" placeholder="Enter your Email">
-                <button type="submit" class="btn"><a href="under_con.html">Subscribe Now</a></button>
+                <button type="submit" class="btn" onclick="underCon()" >Subscribe Now</button>
             </div>
         </div>
     </section>
@@ -1419,6 +1414,11 @@
             });
         });
     </script> -->
+    <script>
+        function underCon (){
+            window.open("under_con.html");
+        }
+    </script>
     <script src="js/cost.js"></script>
     <script src="js/date-time.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
