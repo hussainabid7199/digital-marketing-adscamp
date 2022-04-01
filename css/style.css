@@ -1013,12 +1013,15 @@ h1 {
     /* box-shadow: 4px 4px 4px 3px rgba(245, 192, 176, 0.2); */
     /* border-radius: 5px; */
     cursor: pointer;
-    margin: 0%;
+    margin-right: 10px;
 }
 .item_p:hover{
     transform: scale(1.02);
-}
+    position: fixed;
+    width: 80%;
+    height: 70%;
 
+}
 @media(max-width:780px) {
     .item_p {
         background-color: rgb(255, 255, 255);
