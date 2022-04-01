@@ -72,6 +72,37 @@ ul > button:hover{
 }
 
 
+@media (max-width:780px){
+    .service-desk{
+        display: block;
+        visibility:hidden;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .service-inner{
+        margin-bottom: 10px;
+    }
+    .serviceCont,.serviceCon{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width:780px){
+    .ser-mobile{
+        display: block;
+     visibility: hidden;
+     height: 0px;
+     width: 0px;
+     padding: 0px;
+     margin: 0px !important;  
+    }
+}
+
+
+
 
 
 /* service discription */
