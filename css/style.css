@@ -528,7 +528,7 @@ h1 {
     .about-img{
         /* display: block; */
         /* visibility: collapse; */
-        width: 0px;
+        width: 100%;
         height: max-content;
         margin: 2rem;
         padding: 0px;
