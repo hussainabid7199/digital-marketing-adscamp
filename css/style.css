@@ -243,6 +243,12 @@ body {
     justify-content: left;
     padding: 0% 0% 1% 10%;
 }
+@media(max-width:780px){
+    .heading h1{
+        font-size: 30px !important ;
+        width: 85%;
+    }
+}
 
 .top-para {
     padding: 1% 50% 1% 10%;
