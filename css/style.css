@@ -526,10 +526,10 @@ h1 {
 }
 @media (max-width:780px){
     .about-img{
-        display: block;
-        visibility: collapse;
+        /* display: block; */
+        /* visibility: collapse; */
         width: 0px;
-        height: 0px;
+        height: max-content;
         margin: 2rem;
         padding: 0px;
     }
