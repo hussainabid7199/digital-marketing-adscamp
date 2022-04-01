@@ -1,0 +1,4 @@
+function targetPage() {
+    document.getElementById = ""
+    
+}
