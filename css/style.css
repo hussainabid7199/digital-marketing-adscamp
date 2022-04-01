@@ -246,7 +246,6 @@ body {
 @media(max-width:780px){
     .heading h1{
         font-size: 30px !important ;
-        width: 85%;
     }
 }
 
